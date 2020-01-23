@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	<brokengagian>
 	router := NewRouter()
 
 	log.Fatal(http.ListenAndServe(":8000", router))

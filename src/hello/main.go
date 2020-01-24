@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	<BROKEN>
+	broken
 	router := NewRouter()ivo
 
 	log.Fatal(http.ListenAndServe(":8000", router))

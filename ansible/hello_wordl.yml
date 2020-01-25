@@ -1,0 +1,9 @@
+- name: Hello World Sample
+  hosts: localhost
+  tasks:
+    - pause: 
+      minutes: 2
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+
